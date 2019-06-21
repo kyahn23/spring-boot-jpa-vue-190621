@@ -2,7 +2,6 @@ package com.bitstudy.web.controller;
 
 import java.util.HashMap;
 
-import javax.xml.ws.spi.Provider;
 
 import com.bitstudy.web.common.util.PageProxy;
 import com.bitstudy.web.domain.CustomerDTO;
