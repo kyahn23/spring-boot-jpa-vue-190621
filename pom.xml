@@ -39,7 +39,14 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 			<scope>compile</scope>
 		</dependency>
+
+		<!-- 0625 mysql 에서 h2database 로 대체  -->
 		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+		</dependency>
+
+		<!-- <dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<scope>runtime</scope>
@@ -47,7 +54,7 @@
 		<dependency>
 			<groupId>org.mariadb.jdbc</groupId>
 			<artifactId>mariadb-java-client</artifactId>
-		</dependency>
+		</dependency> -->
 
 		<dependency>
 			<groupId>org.projectlombok</groupId>
